@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT license.
 
-#!/bin/bash  test
+#!/bin/bash
 set -e
 
 figlet Build
