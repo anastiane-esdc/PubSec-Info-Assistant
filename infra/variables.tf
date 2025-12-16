@@ -6,11 +6,12 @@ variable "environmentName" {
 variable "location" {
   description = "Primary location for all resources"
   type        = string
+  default     = "canadacentral"
 }
 
 variable "resourceGroupName" {
   type    = string
-  default = ""
+  default = "EsSCSDLCRg"
 }
 
 variable "buildNumber" {
